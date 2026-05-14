@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smarttagbletest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Android 12+ -->
+12    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+12-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:5:5-73
+12-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:5:22-70
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:6:5-76
+13-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:6:22-73
+14
+15    <!-- Android 11 ou menor -->
+16    <uses-permission
+16-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:9:5-95
+17        android:name="android.permission.BLUETOOTH"
+17-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:9:22-65
+18        android:maxSdkVersion="30" />
+18-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:9:66-92
+19    <uses-permission
+19-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:10:5-101
+20        android:name="android.permission.BLUETOOTH_ADMIN"
+20-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:10:22-71
+21        android:maxSdkVersion="30" />
+21-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:10:72-98
+22    <uses-permission
+22-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:11:5-106
+23        android:name="android.permission.ACCESS_FINE_LOCATION"
+23-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:11:22-76
+24        android:maxSdkVersion="30" />
+24-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:11:77-103
+25
+26    <uses-feature
+26-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:13:5-15:35
+27        android:name="android.hardware.bluetooth_le"
+27-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:14:9-53
+28        android:required="true" />
+28-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:15:9-32
+29
+30    <permission
+30-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.smarttagbletest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.smarttagbletest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:17:5-34:19
+37        android:allowBackup="true"
+37-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:18:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.15.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/2e55366f68d7dc3484c6b2c5fa08aabd/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:label="SmartTag BLE Test"
+41-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:20:9-42
+42        android:supportsRtl="true"
+42-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:21:9-35
+43        android:theme="@style/Theme.SmartTagBLETest" >
+43-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:19:9-53
+44        <activity
+44-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:23:9-32:20
+45            android:name="com.example.smarttagbletest.MainActivity"
+45-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:24:13-41
+46            android:exported="true" >
+46-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:25:13-36
+47            <intent-filter>
+47-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:28:17-69
+48-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:29:17-77
+50-->/home/aloyadua/Documentos/SmartTagBLETest/app/src/main/AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.smarttagbletest.androidx-startup"
+56-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+59-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+60                android:value="androidx.startup" />
+60-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+61        </provider>
+62
+63        <receiver
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+64            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+65            android:directBootAware="false"
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+66            android:enabled="true"
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+67            android:exported="true"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+68            android:permission="android.permission.DUMP" >
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+69            <intent-filter>
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+70                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+71            </intent-filter>
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+73                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+76                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+79                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/aloyadua/.gradle/caches/9.5.0/transforms/bb1dea5b9493762b6d7d7cb85d61cec9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+80            </intent-filter>
+81        </receiver>
+82    </application>
+83
+84</manifest>
